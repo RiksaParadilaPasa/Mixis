@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mixi"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Mixi" />
+        <item
+            android:id="@+id/nav_notif"
+            android:icon="@mipmap/ic_menu_notif"
+            android:title="Notifikasi" />
+        <item
+            android:id="@+id/nav_trans"
+            android:icon="@mipmap/ic_menu_trans"
+            android:title="Transaksi" />
+        <item
+            android:id="@+id/nav_like"
+            android:icon="@mipmap/ic_menu_like"
+            android:title="Favorit" />
+        <item
+            android:id="@+id/nav_agenda"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="Agenda" />
+        <item
+            android:id="@+id/nav_kegiatangallery"
+            android:icon="@drawable/ic_image_black_24dp"
+            android:title="Kegiatan dan Gallery" />
+        <item
+            android:id="@+id/nav_member"
+            android:icon="@drawable/ic_card_membership_black_24dp"
+            android:title="Member" />
+        <item
+            android:id="@+id/nav_artikel"
+            android:icon="@drawable/ic_fiber_new_black_24dp"
+            android:title="Artikel" />
+        <item
+            android:id="@+id/nav_visimisi"
+            android:icon="@drawable/ic_assignment_turned_in_black_24dp"
+            android:title="Visi Misi" />
+        <item
+            android:id="@+id/nav_tentangkami"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="Tentang Kami" />
+
+    </group>
+
+    <item android:title="Akun Saya">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@mipmap/ic_menu_profile"
+                android:title="Lihat Profil" />
+            <item
+                android:id="@+id/nav_store"
+                android:icon="@mipmap/ic_menu_store"
+                android:title="Lihat Toko" />
+            <item
+                android:id="@+id/nav_point"
+                android:icon="@drawable/ic_attach_money_black_24dp"
+                android:title="Tukar Point" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@mipmap/ic_menu_help"
+                android:title="Bantuan" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@mipmap/ic_menu_logout"
+                android:title="Keluar" />
+        </menu>
+    </item>
+
+</menu>

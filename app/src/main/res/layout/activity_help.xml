@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Help"
+    android:background="#fff">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:background="@drawable/bg_splash">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mixiindo"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/bantuan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:text="Bantuan"
+                android:textAlignment="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="50dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvbantaun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bantuan"
+                app:cardCornerRadius="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_bantuan">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="1.Jika anda ingin menanyakan sesuatu yang berkaitan dengan club bisa contact ke sekertariat atau yang berhubungan.\n
+                                  \n2.Jika anda ingin menyampaikan kritik atau saran anda bisa yang berkaitan dengan club bisa hubungi sekertariat atau yang berhubungan.\n
+                                   \n3.Jika anda ingin menyampaikan keluh kesah yang berkaitan dengan aplikasi bisa hubungi club bisa hubungi sekertariat atau yang berhubungan.\n
+                                    \n4.Jika anda menemukan bug bisa hubungi developer.\n
+                                     \n5.Jika anda ingin menanyakan sesuatu yang berkaitan dengan aplikasi bisa contact ke developer.\n
+                                      \n6.Jika anda ingin menyampaikan kritik atau saran anda bisa yang berkaitan dengan aplikasi bisa hubungi developer.\n
+                                       \n7.Jika anda ingin menyampaikan keluh kesah yang berkaitan dengan aplikasi bisa hubungi developer."
+                    android:padding="10dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:layout_below="@id/cvbantaun"
+                android:background="@drawable/bg_splash">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mixiindo"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cvbantaun"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:text="Contact Club"
+                android:textAlignment="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="50dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/conact2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/contact"
+                app:cardCornerRadius="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_bantuan">
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:layout_gravity="center_horizontal"
+                    android:textAlignment="center">
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/fb"
+                        android:layout_margin="15dp" />
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/twitter"
+                        android:layout_margin="15dp"/>
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/instagaram"
+                        android:layout_margin="15dp"/>
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/wa"
+                        android:layout_margin="15dp"/>
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/gmail"
+                        android:layout_margin="15dp"/>
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/youtube"
+                        android:layout_margin="15dp"/>
+
+                </GridLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:layout_below="@id/conact2"
+                android:background="@drawable/bg_splash"
+                android:layout_marginTop="100dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mixiindo"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/deve"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/conact2"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:text="Contact Developer"
+                android:textAlignment="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="150dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/deve2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/deve"
+                app:cardCornerRadius="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_bantuan">
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="3"
+                    android:layout_gravity="center_horizontal"
+                    android:textAlignment="center">
+
+                    <Button
+                        android:id="@+id/fbd"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/fb"
+                        android:layout_margin="15dp" />
+
+                    <Button
+                        android:id="@+id/twtd"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/twitter"
+                        android:layout_margin="15dp"/>
+
+                    <Button
+                        android:id="@+id/igd"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/instagaram"
+                        android:layout_margin="15dp"/>
+
+                    <Button
+                        android:id="@+id/wad"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/wa"
+                        android:layout_margin="15dp"/>
+
+                    <Button
+                        android:id="@+id/gmd"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/gmail"
+                        android:layout_margin="15dp"/>
+
+                    <Button
+                        android:id="@+id/ytd"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/youtube"
+                        android:layout_margin="15dp"/>
+
+
+                </GridLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

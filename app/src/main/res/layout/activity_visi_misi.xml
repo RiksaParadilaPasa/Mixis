@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VisiMisi"
+    android:background="#fff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/lr1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivvisimisi"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:src="@drawable/logomixi"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/side_nav_bar"/>
+
+            <TextView
+                android:id="@+id/tvvisi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VISI"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivvisimisi"/>
+
+            <TextView
+                android:id="@+id/tvvisi2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Menjadi komunitas otomotif yg terbuka bagi semua kalangan dan berkontribusi positif bagi negara dan masyarakat indonesia."
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvvisi"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Menjadi komunitas otomotif yg terbuka bagi semua kalangan dan berkontribusi positif bagi negara dan masyarakat indonesia."
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvvisi"/>
+
+            <TextView
+                android:id="@+id/tvmisi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MISI"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvvisi2"/>
+
+            <TextView
+                android:id="@+id/tvmisi2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Menjadi sarana untuk mengembangkan setiap kreatifitas anggota Mitsubishi Xpander Indonesia (MIXI)
+\n2. Menjadi wadah diskusi serta berbagi informasi khususnya yang berkaitan dengan Xpander, akan tetapi Mitsubishi Xpander Indonesia (MIXI) juga terbuka untuk saling berbagi informasi mengenai hal umum lainnya seputaran dunia otomotif
+\n3. Aktif bersosialisasi dengan lingkungan, baik sesama perkumpulan otomotif maupun masyarakat setempat
+\n4. Menjalin silaturahmi dengan sesama perkumpulan otomotif lainnya baik dari pabrikan yang sama maupun beda pabrikan, agar dapat menjaga citra positif didalam setiap perkumpulan otomotif"
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvmisi"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Menjadi sarana untuk mengembangkan setiap kreatifitas anggota Mitsubishi Xpander Indonesia (MIXI)
+\n2. Menjadi wadah diskusi serta berbagi informasi khususnya yang berkaitan dengan Xpander, akan tetapi Mitsubishi Xpander Indonesia (MIXI) juga terbuka untuk saling berbagi informasi mengenai hal umum lainnya seputaran dunia otomotif
+\n3. Aktif bersosialisasi dengan lingkungan, baik sesama perkumpulan otomotif maupun masyarakat setempat
+\n4. Menjalin silaturahmi dengan sesama perkumpulan otomotif lainnya baik dari pabrikan yang sama maupun beda pabrikan, agar dapat menjaga citra positif didalam setiap perkumpulan otomotif"
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvmisi"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

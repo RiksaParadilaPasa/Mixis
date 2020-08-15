@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TentangKami"
+    android:background="#fff">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/lr1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#EEF0E4">
+
+                <ImageView
+                    android:id="@+id/ivtentakngkamibg"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:background="@drawable/mobilmixi"
+                    android:scaleX="1"
+                    android:scaleY="1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvtentangkami"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SEKILAS TENTANG MIXI CHAPTER BANDUNG"
+                    android:textStyle="bold"
+                    android:textSize="19sp"
+                    android:textColor="#000"
+                    android:layout_margin="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/ivtentakngkamibg"/>
+
+                <TextView
+                    android:id="@+id/tvtentangkami2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MIXI adalah komunitas otomotif penguna mobil Mitsubishi Xpander yang lahir pada tanggal 27 Januari 2017 bertempat di Mega Glodok Kemayoran (MGK). Kini memiliki 9905 anggota www.facebook.com/group/Mitsubishixpanderindonesia yang tersebar di seluruh Indonesia dengan 20 pengurus regional dan member aktif yang telah memiliki nomer punggung sejumlah 1200 member."
+                    android:textSize="15sp"
+                    android:layout_margin="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvtentangkami"/>
+
+                <TextView
+                    android:id="@+id/tvtentangkami3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Member MIXI juga tersebar di beberapa kota di Indonesia antara lainJabodetabek, Banten, Bandung, Bandung, Yogya, Semarang, Tegal, Cilacap, Surabaya, Bali, Palembang, Bangka, Padang, Banjarmasin, Samarinda, Balikpapan, Jambi, Riau, Medan dan Aceh dll"
+                    android:textSize="15sp"
+                    android:layout_margin="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvtentangkami2"/>
+
+                <TextView
+                    android:id="@+id/tvtentangkami4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Saat ini MIXI telah menjadi salah satu komunitas otomotif dengan pertumbuhan jumlah member yang sangat pesat dan menjadi salah satu komunitas otomotif yang sangat  aktif dalam menyelenggarakan berbagai kegiatan di dunia otomotif, khususnya dalam segmen otomotif keluarga dan kegiatan sosial"
+                    android:textSize="15sp"
+                    android:layout_margin="10dp"
+                    android:paddingBottom="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvtentangkami3"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+            <ImageView
+                android:id="@+id/ivtentakngkami"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/struktur"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:layout_margin="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/lr1" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/ivtentakngkami"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:background="#000">
+
+                <TextView
+                    android:id="@+id/tvtentangkamia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OUR PROGRAM"
+                    android:textStyle="bold"
+                    android:textSize="19sp"
+                    android:textColor="#fff"
+                    android:layout_margin="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:columnCount="2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvtentangkamia">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="KOPDAR"
+                        android:textStyle="bold"
+                        android:textSize="19sp"
+                        android:textColor="#fff"
+                        android:layout_margin="10dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TOURING"
+                        android:textStyle="bold"
+                        android:textSize="19sp"
+                        android:textColor="#fff"
+                        android:layout_margin="10dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="BAKTI SOSIAL"
+                        android:textStyle="bold"
+                        android:textSize="19sp"
+                        android:textColor="#fff"
+                        android:layout_margin="10dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="BISNIS"
+                        android:textStyle="bold"
+                        android:textSize="19sp"
+                        android:textColor="#fff"
+                        android:layout_margin="10dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SILATURAHMI"
+                        android:textStyle="bold"
+                        android:textSize="19sp"
+                        android:textColor="#fff"
+                        android:layout_margin="10dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="COUCHING"
+                        android:textStyle="bold"
+                        android:textSize="19sp"
+                        android:textColor="#fff"
+                        android:layout_margin="10dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DEKLARASI"
+                        android:textStyle="bold"
+                        android:textSize="19sp"
+                        android:textColor="#fff"
+                        android:layout_margin="10dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ANNIVERSARY"
+                        android:textStyle="bold"
+                        android:textSize="19sp"
+                        android:textColor="#fff"
+                        android:layout_margin="10dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+
+                </GridLayout>
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
